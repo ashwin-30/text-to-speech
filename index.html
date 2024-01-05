@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text-to-Speech</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <h1 id="title">Text to Speech</h1>
+    </div>
+    <textarea id="textToSpeak" style="border: 1px solid #ccc; padding: 10px;" placeholder="Type something..."></textarea>
+    <div id="buttons-container">
+        <button id="speakButton" onclick="speak()">Speak 📢</button>
+        <button id="stopButton" onclick="stopSpeaking()">Stop 🛑</button>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
