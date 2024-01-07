@@ -34,7 +34,7 @@ The application utilizes browser Text-to-Speech APIs to convert typed text into 
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/text-to-speech.git
+    git clone https://github.com/ashwin-30/text-to-speech
     ```
 
 2. Open `index.html` in your preferred web browser.
